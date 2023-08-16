@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: chartreuse;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #fff;
+  height: 50vh;
+  width: 20vw;
+  padding: 2vw 4vw;
+  box-shadow: 10px 10px 24px 0 black;
+  border-radius: 5px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-container #trash {
+  margin-left: 2vw;
+}
+
+.groceries input {
+  width: 100%;
+  font-size: 1.5vw;
+  outline: 0;
+  border: 0;
+  border-bottom: 2px solid #000;
+}
+
+#trash {
+  color: red;
+  font-size: 2vw;
+  margin-bottom: -5px;
+  cursor: pointer;
+}
+
+#allItems {
+  text-align: start;
+  left: 0;
+}
+#allItems h2 {
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */
