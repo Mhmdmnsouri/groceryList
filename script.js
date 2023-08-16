@@ -1,4 +1,3 @@
-const groceriesElem = document.getElementsByClassName('groceries')[0];
 const trashElem = document.getElementById('trash');
 const allItemsElem = document.getElementById('allItems');
 const inputVal = document.getElementById('userInput')
